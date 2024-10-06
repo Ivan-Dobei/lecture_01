@@ -75,7 +75,7 @@ console.log('----------------');
 //task 5
 let numberArray = new Array(10).fill(42);
 numberArray.splice(4, 0, "answer");
-console.log(array.find(element => element === "answer"));
+console.log(numberArray.find(element => element === "answer"));
 
 console.log('----------------');
 
